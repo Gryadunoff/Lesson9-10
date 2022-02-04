@@ -279,7 +279,8 @@ h5 {
 	line-height: 1.2;
 	color: #fff;
 }
-.feedback__wrapper {
+
+.feedback__form {
 	padding-top: 100px;
 	padding-bottom: 90px;
 	display: flex;
@@ -289,19 +290,21 @@ h5 {
 	margin: auto;
 }
 
-.feedback__form {
+.feedback__wrapper__field {
 	flex-basis: 370px;
 	margin-right: 30px;
 }
-.feedback__form:nth-child(2) {
+.feedback__wrapper__field:nth-child(2) {
 	margin-right: 0;
 }
 .feedback__wrapper__field {
 	padding: 40px 0;
 	position: relative;
 }
-.feedback__form__message {
+.feedback__wrapper__msg {
 	flex-basis: 770px;
+	padding: 40px 0;
+	position: relative;
 }
 input {
 	width: 100%;
